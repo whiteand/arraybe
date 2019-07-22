@@ -39,3 +39,23 @@ const isNothing = maybeValue => maybeValue.length === 0;
 ```
 
 ---
+
+### `equals :: (a: Maybe T) => (b: Maybe V) => boolean`
+
+It takes two maybe monads and returns true if they are equal.
+
+Simple definition:
+
+```javascript
+const equals = (a, b) => {
+  return (
+    (isNothing(a) && isNothing(b)) || (isJust(a) && isJust(b) && a[0] === b[0]) // both contains same value
+  );
+};
+```
+
+This is a curried function:
+
+```javascript
+equals(a, b) === equals(a)(b);
+```

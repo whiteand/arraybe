@@ -1,9 +1,12 @@
-const { of } = require("./of");
 const { isJust } = require("./isJust");
 const { isNothing } = require("./isNothing");
+const { lte, lteWith } = require("./ord");
+const { of } = require("./of");
 
 module.exports = {
-  of,
   isJust,
-  isNothing
+  isNothing,
+  lte,
+  lteWith,
+  of
 };
