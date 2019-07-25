@@ -1,6 +1,6 @@
 {
   "name": "arraybe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Maybe monad implementation with using of arrays",
   "main": "index.js",
   "dependencies": {},
