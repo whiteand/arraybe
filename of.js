@@ -1,1 +1,2 @@
-module.exports = { of: x => [x] };
+const { just } = require('./just');
+module.exports = { of: just };

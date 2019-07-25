@@ -1,0 +1,32 @@
+{
+  "name": "arraybe",
+  "version": "0.0.1",
+  "description": "Maybe monad implementation with using of arrays",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whiteand/arraybe.git"
+  },
+  "keywords": [
+    "functional",
+    "programming",
+    "FP",
+    "maybe",
+    "monad"
+  ],
+  "author": "AndrewBeletskiy <AndrewBeletskiy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whiteand/arraybe/issues"
+  },
+  "homepage": "https://github.com/whiteand/arraybe#readme"
+}
